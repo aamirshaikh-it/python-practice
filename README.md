@@ -20,7 +20,15 @@ A menu-driven contact manager that lets users add, view, and delete contacts, st
 **Run it:**
 ---
 
-### 3. Number Guessing Game
+### 3. Expense Tracker
+A CLI app for logging and tracking expenses, with data saved to a file so it persists between runs.
+
+**Concepts practiced:** file I/O (`open`, `with`, reading/writing/appending), string splitting and parsing, exception handling for missing files (`FileNotFoundError`), running totals, menu-driven loops.
+
+**Run it:**
+```
+
+### 4. Number Guessing Game
 A CLI game where the program picks a random number (1-100) and the user tries to guess it, with feedback on each guess (too high/too low) and a tracked attempt count.
 
 **Concepts practiced:** loops (`while`), nested loops, conditionals, exception handling (`try/except`), input validation, replay logic using flag variables.
