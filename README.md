@@ -2,6 +2,9 @@
 
 This repository contains beginner Python projects built while learning core programming concepts — no AI-generated code, everything written and debugged by hand to build real understanding.
 
+## What I'm Learning
+This repo tracks my progress learning Python fundamentals — starting with basic loops and conditionals, moving into functions, exception handling, object-oriented programming (classes), file I/O, and now working with external APIs and libraries. Each project builds on concepts from the previous one.
+
 ## Projects
 
 ### 1. CLI Calculator
@@ -34,3 +37,21 @@ A CLI game where the program picks a random number (1-100) and the user tries to
 **Concepts practiced:** loops (`while`), nested loops, conditionals, exception handling (`try/except`), input validation, replay logic using flag variables.
 
 **Run it:**
+
+### 5. Weather CLI App
+A command-line app that fetches real-time weather data for any city using the OpenWeatherMap API.
+
+**Concepts practiced:** working with external libraries (`requests`), making HTTP requests, parsing nested JSON responses, handling API errors (`KeyError` for invalid cities), protecting sensitive data (API keys) using a separate config file excluded via `.gitignore`.
+
+**Setup:**
+1. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
+2. Create a `config.py` file inside `weather_cli_app/` with:
+```python
+   api_key = "your_api_key_here"
+```
+   (see `config_example.py` for the format)
+
+**Run it:**
+```
+python weather_cli_app/weather.py
+```
