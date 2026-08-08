@@ -38,7 +38,7 @@ A CLI game where the program picks a random number (1-100) and the user tries to
 
 **Run it:**
 
-### 6. Rock Paper Scissors
+### 5. Rock Paper Scissors
 A CLI game where the player competes against the computer, with win/tie/loss detection and input validation.
 
 **Concepts practiced:** the `random` module (`random.choice`), boolean logic with multiple `and`/`or` conditions, exception handling with a manually raised `ValueError`, list membership checks (`in`).
@@ -48,7 +48,7 @@ A CLI game where the player competes against the computer, with win/tie/loss det
 python rock_paper_scissors/rock_paper_scissors.py
 ```
 
-### 5. Weather CLI App
+### 6. Weather CLI App
 A command-line app that fetches real-time weather data for any city using the OpenWeatherMap API.
 
 **Concepts practiced:** working with external libraries (`requests`), making HTTP requests, parsing nested JSON responses, handling API errors (`KeyError` for invalid cities), protecting sensitive data (API keys) using a separate config file excluded via `.gitignore`.
